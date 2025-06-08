@@ -7,7 +7,11 @@
   <link rel="stylesheet" type="text/css" href="aboutqejani.css">
   </head>
   <body>
+    <?php include("navbar.php"); ?>
     <main>
+
+
+    
   <!--ABOUT QEJANI-->
  <div class="section">
     <div class="about-flex">
