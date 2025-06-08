@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    background-color:whitesmoke;
+    color: rgb(160, 132, 152);
+    font-family: 'Roborto', sans-serif;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* About Qejani Section */
+.About-Qejani {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(221, 118, 207);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.527);
+}
+
+/* Qejani History */
+.Qejani-history {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Qejani Topic */
+.Qejani-topic {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Qejani Story */
+.qejani-story {
+    background-color: rgb(51, 45, 49); 
+    border-radius: 10px;
+    text-align: justify;
+    max-width: 800px;
+    line-height: 1.7;
+}
+
+
+/* Section for Images & Details */
+.qejani-details {
+    display: flex;
+    justify-content: space-around;  /* Ensures even spacing */
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+/* Individual Pic Containers */
+.pic-1, .pic-2, .pic-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%; 
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px blanchedalmond;
+}
+
+/* Image Styling */
+.qejani-details img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Maintain square shape */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
